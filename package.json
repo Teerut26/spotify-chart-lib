@@ -1,8 +1,8 @@
 {
-  "name": "node-typescript",
+  "name": "spotify-chart-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
@@ -14,6 +14,10 @@
   "devDependencies": {
     "nodemon": "^2.0.15",
     "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10"
   }
 }

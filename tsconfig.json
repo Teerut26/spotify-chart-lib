@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "lib": [
+        // ... other libs
+        "ES2021.String"
+      ],
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Projects */
